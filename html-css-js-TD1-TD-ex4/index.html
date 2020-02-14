@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TD1-Addresse IP</title>
+  
+</head>
+<body>
+  <form>
+	<label>IP1 à rentrer : </label><input id="ip1Input" name="IP1" type="text"/>
+	<label>IP2 à rentrer : </label><input id="ip2Input" name="IP2" type="text"/>
+	<label> Masque à rentrer : </label><input id="MasqueInput" name="Masque" value="255.255.255.0"type="text"/>
+	<input onClick="recup();"/ type="button" value="Calculer" >
+  </form>
+  </br>
+  <div id="IP1"></div>
+<div id="IP2"></div>
+<div id="IPreseau"></div>
+<div id="netID"></div>
+<div id="hostID"></div>
+<div id="error"></div>
+<script src="td1.js"></script>
+</body>
+</html>
